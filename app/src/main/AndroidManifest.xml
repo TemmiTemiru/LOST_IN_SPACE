@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mcm.edu.ph.lost_in_space">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LOST_IN_SPACE">
+        <activity android:name=".a"></activity>
+        <activity android:name=".bdf" />
+        <activity android:name=".bde" />
+        <activity android:name=".bd" />
+        <activity android:name=".bcf" />
+        <activity android:name=".bce" />
+        <activity android:name=".bc" />
+        <activity android:name=".b" />
+        <activity android:name=".adf" />
+        <activity android:name=".ade" />
+        <activity android:name=".acf" />
+        <activity android:name=".ace" />
+        <activity android:name=".ad" />
+        <activity android:name=".ac" />
+        <activity android:name=".start" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
